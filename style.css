@@ -59,8 +59,12 @@ body {
 .nav-link {
     color: #fff !important;
     font-weight: 500;
-}
 
+    
+  }
+.navbar-toggler-icon{
+  background-color: #f4f1ea;
+}
 
 
 /* HOME CSS STYLING */
