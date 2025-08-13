@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- External Bootstrap linkage -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <!-- External Css linkage -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- External Icon Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio</title>
+
+  <!-- Particle.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</head>
+
+<body>
+  <!-- Particle.js background -->
+  <div id="particles-js"></div>
+
+  <!-- Navbar start -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid navbackground p-2">
+      <a class="navbar-brand" href="#">DevFolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#devtools">DevTools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar close -->
+
+  <!-- Home start -->
+  <section id="home" class="mt-5 mb-5">
+    <div class="container-fluid">
+      <div class="container mt-6">
+        <div class="row text-center justify-content-center align-items-center mt-5 mb-5">
+          <div class="col-md-6 text-center">
+            <img src="../images/Programmer-amico.svg" alt="Programmer Image" class="img-fluid home-image h-75 w-75" />
+          </div>
+          <div class="col-md-6 text-center">
+            <h1 class="heading text-sm-center text-md-start text-lg-start">
+              Hi, I'm Abdul Rehman
+            </h1>
+            <h4 class="subheading text-sm-center text-md-start text-xl-start text-lg-start">
+              React JS Frontend Developer
+            </h4>
+            <p class="content text-sm-center text-md-start text-xl-start text-lg-start">
+              I'm a passionate React Frontend Developer with real-world
+              experience building scalable web applications using React and Redux...
+            </p>
+            <div class="row text-center justify-content-start align-items-start mt-4">
+              <div class="col-md-6 d-flex justify-content-center">
+                <button type="button" class="btn btn-primary me-2 border-0 rounded-0"
+                  style="background-color: #711b0c; font-weight: 600">
+                  <i class="fa-solid fa-folder me-2"></i>Projects
+                </button>
+                <button type="button" class="btn btn-primary border-0 rounded-0"
+                  style="background-color: #711b0c; font-weight: 600">
+                  <i class="fa-solid fa-file me-2"></i>Resume
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Home Close -->
+
+  <!-- About Start -->
+
+  <section id="about" class="mt-5 mb-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center text-center">
+        <h2 class="heading">Frontend & Forward</h2>
+        <hr class="mt-3 mb-3 hr-line" />
+        <p class="content">
+          Driven by a passion for creating intuitive and dynamic user
+          interfaces, I specialize in transforming complex designs into
+          accessible, high-performance web experiences. My journey in frontend
+          development is fueled by a commitment to continuous learning,
+          embracing the latest technologies, and crafting solutions that
+          bridge the gap between aesthetics and functionality.
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row text-center justify-content-center align-items-center mt-5 mb-5">
+
+          <div class="col-md-8 mx-auto">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+              <!-- Accordion Item 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"><i
+                      class="fa-solid fa-user me-2"></i>
+                    Who Am I?
+                    <i class="fa-solid fa-chevron-down icon-right"></i>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>
+                      I am a passionate web developer with a keen eye for detail and a love for crafting user-friendly
+                      experiences.
+                      With years of experience in HTML, CSS, JavaScript, and modern frameworks, I help businesses build
+                      fast,
+                      responsive, and SEO-optimized websites.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accordion Item 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"><i
+                      class="fa-solid fa-briefcase me-2"></i>
+                    Career Journey
+                    <i class="fa-solid fa-chevron-down icon-right"></i>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>
+                      Over the past decade, I have worked with startups, agencies, and enterprises to deliver
+                      cutting-edge web solutions. My expertise spans front-end and back-end technologies,
+                      ensuring complete, scalable, and maintainable applications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Accordion Item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><i
+                      class="fa-solid fa-graduation-cap me-2"></i>
+                    Education
+                    <i class="fa-solid fa-chevron-down icon-right"></i>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>
+                      I hold a Bachelor's degree in Computer Science and have completed numerous professional
+                      certifications in web development, SEO, and cloud technologies. I believe in continuous learning
+                      and keeping up with the latest trends in the tech industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Close -->
+
+  <!-- Skills Start -->
+  <section id="skills" class="mt-5 mb-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center text-center">
+        <h2 class="heading">Frontend Force</h2>
+        <hr class="mt-3 mb-3 hr-line" />
+        <p class="content">
+          My expertise spans a robust set of technical and soft skills, enabling me to build scalable, responsive, and
+          user-centric web applications. By leveraging modern tools and best practices, I deliver solutions that combine
+          performance, accessibility, and seamless user experiences, all while thriving in collaborative and fast-paced
+          environments.
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row text-start justify-content-center align-items-center mt-5 mb-5">
+          <h5 class="skill-heading-1 p-2">Frotnend Development</h5>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="card border-0 rounded-0">
+              <div class="card-header  border-0 rounded-0"> <i class="fa-brands fa-html5 me-2"></i>
+                HTML
+              </div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="fs-6">Structured semantic, accessible markup. Created forms with validation and inputs.
+                      Used meta tags for SEO friendliness. Organized content for readability. Embedded media and
+                      interactive content.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    3 Years of Experience <cite title="Source Title">W3Schools</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="card border-0 rounded-0">
+              <div class="card-header  border-0 rounded-0"><i class="fa-brands fa-css3-alt me-2"></i>
+                CSS
+              </div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    3 Years of Experience <cite title="Source Title">W3Schools</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="card border-0 rounded-0">
+              <div class="card-header  border-0 rounded-0"><i class="fa-brands fa-js me-2"></i>
+                JS
+              </div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    3 Years of Experience <cite title="Source Title">W3Schools</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="card border-0 rounded-0">
+              <div class="card-header  border-0 rounded-0"> <i class="fa-brands fa-react me-2"></i>
+                React JS
+              </div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    3 Years of Experience <cite title="Source Title">W3Schools</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="card border-0 rounded-0">
+              <div class="card-header border-0 rounded-0"><i class="fa-solid fa-code me-2"></i>
+                JSX
+              </div>
+              <div class="card-body">
+                <figure>
+                  <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    3 Years of Experience <cite title="Source Title">W3Schools</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Close -->
+
+  <!-- Experience Start -->
+  <section id="experience" class="mt-5 mb-5">
+
+
+    <div class="container">
+      <div class="row justify-content-center align-items-center text-center">
+        <h2 class="heading">Journey Blocks</h2>
+        <hr class="mt-3 mb-3 hr-line" />
+        <p class="content">
+          My professional journey in web development has been marked by hands-on experience in building scalable,
+          user-focused applications. From internships to full-time roles, I've honed my skills in frontend and
+          full-stack development, delivering impactful projects that prioritize performance, accessibility, and
+          collaboration.
+          <br><br><br>
+        </p>
+
+        <div class="container">
+          <div class="card text-center">
+            <div class="ribbon"><span>NEW</span></div>
+            <div class="card-header">
+              Professional Experience No. 2
+            </div>
+            <div class="card-body content">
+              <h5 class="card-title">2B Vision Technologies
+                React JS Frontend Developer</h5>
+              <p class="card-text">
+              <ul>
+                <li>
+                  In 2B Vision Technologies, I've taken a leading role in developing modern web applications using
+                  React, Redux Toolkit, and Axios. I've worked closely with cross-functional teams, contributing to key
+                  projects that emphasized performance, scalability, and clean UI design.
+                </li>
+                <li>
+                  One of my major ongoing projects is a fully responsive Admin Dashboard. I'm responsible for building
+                  dynamic modules for user data management, system configuration, and analytics visualization. The
+                  application integrates JWT with cookies for authentication and authorization, and RESTful APIs via
+                  Redux, with a focus on real-time updates and a seamless user experience. To ensure code quality, I've
+                  implemented extensive unit and integration testing using Jest.
+                </li>
+                <li>
+                  In addition to the Admin Dashboard, I developed a Trello-style TaskFlow application that enables users
+                  to manage boards, folders, and tasks with real-time UI updates and status tracking. I also contributed
+                  to a social networking app, MySocial, building reusable UI components and optimizing performance
+                  through UI/UX enhancements and manual testing.
+                </li>
+                <li>
+                  My experience at 2B Vision Technologies has been instrumental in sharpening my frontend development
+                  skills, improving my ability to deliver high-quality code, and deepening my understanding of scalable
+                  application architecture.
+                </li>
+              </ul>
+              </p>
+              <button type="button" class="btn btn-primary me-2 border-0 rounded-0"
+                style="background-color: #711b0c; font-weight: 600">
+                <i class="fa-solid fa-folder me-2"></i>View Report</button>
+            </div>
+            <div class="card-footer text-body-secondary">
+              Nov 2024 – Present
+              Lahore, Pakistan
+              On-site
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <br><br><br>
+          <div class="card text-center">
+            <div class="ribbon"><span>HOT</span></div>
+            <div class="card-header">
+              Professional Experience No. 3
+            </div>
+            <div class="card-body content">
+              <h5 class="card-title">TechNova Solutions
+                Frontend Developer</h5>
+              <p class="card-text">
+              <ul>
+                <li>
+                  At TechNova Solutions, I focused on developing modern, responsive web interfaces using Vue.js,
+                  Tailwind CSS, and Axios, ensuring clean, modular, and maintainable code across all projects.
+                </li>
+                <li>
+                  Led the development of a custom e-commerce platform with advanced product filtering, secure checkout
+                  integration, and user account management. Implemented responsive design principles to enhance mobile
+                  usability.
+                </li>
+                <li>
+                  Built a real-time customer support chat system using WebSockets, improving client engagement and
+                  reducing response times by 40%.
+                </li>
+                <li>
+                  Collaborated closely with backend teams to integrate RESTful APIs, improving overall system
+                  performance and ensuring seamless data flow between the frontend and backend services.
+                </li>
+              </ul>
+              </p>
+              <button type="button" class="btn btn-primary me-2 border-0 rounded-0"
+                style="background-color: #711b0c; font-weight: 600">
+                <i class="fa-solid fa-folder me-2"></i>View Project</button>
+            </div>
+            <div class="card-footer text-body-secondary">
+              Jan 2023 – Oct 2024
+              Karachi, Pakistan
+              Hybrid
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- Experience Close -->
+
+
+  <!-- DevTools Start -->
+  <section id="devtools">
+    <div class="container">
+      <div class="row justify-content-center align-items-center text-center">
+        <h2 class="heading">Dev Bag</h2>
+        <hr class="mt-3 mb-3 hr-line" />
+        <p class="content">
+          My development toolkit encompasses a wide range of modern technologies and platforms, enabling me to build
+          robust, scalable, and user-friendly applications. From databases and frameworks to testing and deployment
+          tools, I leverage these resources to deliver high-quality solutions efficiently.
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row text-center justify-content-center align-items-center mt-5 mb-5">
+          <!-- Replace your existing table section with this: -->
+          <div class="col-md-8">
+            <div class="table-responsive">
+              <table class="table">
+                <thead content>
+                  <tr>
+                    <th scope="col">Dev Bag</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Versions</th>
+                    <th scope="col">Learn</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-html5"></i> HTML</th>
+                    <td>Structuring content and elements for the web.</td>
+                    <td>5.2</td>
+                    <td>
+                      <a href="https://www.w3schools.com/html/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-css3-alt"></i> CSS</th>
+                    <td>Styling and designing web pages with colors, layouts, and animations.</td>
+                    <td>3.0</td>
+                    <td>
+                      <a href="https://www.w3schools.com/css/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-js"></i> JavaScript</th>
+                    <td>Adding interactivity and dynamic features to websites.</td>
+                    <td>ES6+</td>
+                    <td>
+                      <a href="https://www.w3schools.com/js/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-react"></i> React JS</th>
+                    <td>Building fast and reusable UI components with a JavaScript library.</td>
+                    <td>18.2</td>
+                    <td>
+                      <a href="https://react.dev/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> <i class="fa-brands fa-node-js"></i> Node.js</th>
+                    <td>JavaScript runtime for building backend services and APIs.</td>
+                    <td>20.0</td>
+                    <td>
+                      <a href="https://nodejs.org/en/docs/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-database"></i> MongoDB</th>
+                    <td>NoSQL database for storing and retrieving data efficiently.</td>
+                    <td>6.0</td>
+                    <td>
+                      <a href="https://www.mongodb.com/docs/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-bootstrap"></i> Bootstrap</th>
+                    <td>Front-end framework for responsive web design.</td>
+                    <td>5.3</td>
+                    <td>
+                      <a href="https://getbootstrap.com/docs/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-git-alt"></i> Git</th>
+                    <td>Version control system for tracking code changes.</td>
+                    <td>2.42</td>
+                    <td>
+                      <a href="https://git-scm.com/doc" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-github"></i> GitHub</th>
+                    <td>Platform for hosting and collaborating on Git repositories.</td>
+                    <td>-</td>
+                    <td>
+                      <a href="https://docs.github.com/en" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-python"></i> Python</th>
+                    <td>High-level programming language for various applications.</td>
+                    <td>3.12</td>
+                    <td>
+                      <a href="https://docs.python.org/3/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> <i class="fa-brands fa-python"></i> Django</th>
+                    <td>High-level Python web framework for rapid development.</td>
+                    <td>5.0</td>
+                    <td>
+                      <a href="https://docs.djangoproject.com/en/stable/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"> <i class="fa-brands fa-database"></i> MySQL</th>
+                    <td>Relational database management system for structured data.</td>
+                    <td>8.0</td>
+                    <td>
+                      <a href="https://dev.mysql.com/doc/" target="_blank"
+                        class="btn btn-outline-primary border-1 rounded-0">Learn</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- Contact Open -->
+  <section id="contact" class="mt-5 mb-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center text-center">
+        <h2 class="heading">Coffee & Code?</h2>
+        <hr class="mt-3 mb-3 hr-line" />
+        <p class="content">
+          I'm currently open to freelance opportunities, full-time roles, or creative collaborations. If you’ve got a
+          project or just want to say hi, feel free to drop me a message!
+          <br><br>
+        </p>
+
+        <form class="col-6 justify-content-center align-items-center text-center content">
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleInputName" required>
+          </div>
+
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Message</label>
+            <!-- Textarea with rows and scrollable box -->
+            <textarea class="form-control" id="exampleInputPassword1" rows="5" style="resize: vertical;"
+              placeholder="Enter your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary me-2 mb-3 border-0 rounded-0"
+            style="background-color: #711b0c; font-weight: 600">
+            <i class="fa-solid fa-folder me-2"></i>Send
+          </button>
+        </form>
+
+
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center gap-3 mt-4" style="font-size: 2rem; color: #5d4b6b;">
+      <!-- WhatsApp -->
+      <a href="https://wa.me/1234567890" target="_blank" style="color: #711b0c; text-decoration: none;">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <!-- Divider -->
+      <div style="border-left: 2px solid currentColor; height: 30px;"></div>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank" style="color: #711b0c; text-decoration: none;">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <!-- Divider -->
+      <div style="border-left: 2px solid currentColor; height: 30px;"></div>
+
+      <!-- GitHub -->
+      <a href="https://github.com/yourusername" target="_blank" style="color: #711b0c; text-decoration: none;">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Contact Close -->
+
+  <!-- External Bootstrap js linkage -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"></script>
+
+  <script src="particles.js"></script>
+
+
+
+</body>
+
+</html>
