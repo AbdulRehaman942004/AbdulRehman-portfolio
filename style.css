@@ -200,6 +200,23 @@ td{
   box-shadow: 0 3px 10px rgba(0,0,0,0.3);
 }
 
+
+@media (max-width: 480px) {
+  .ribbon {
+    width: 100px; /* Further reduce width for very small screens */
+    height: 100px; /* Further reduce height */
+  }
+
+  .ribbon span {
+    width: 130px; /* Adjust width further for very small screens */
+    padding: 6px 0; /* Further reduce padding */
+    top: 15px; /* Adjust top position */
+    left: -30px; /* Adjust left position */
+    font-size: 0.8rem; /* Further reduce font size */
+  }
+}
+
+
 /* Particle.js background */
 #particles-js {
   position: absolute;
